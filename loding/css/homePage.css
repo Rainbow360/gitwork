@@ -1,0 +1,74 @@
+*{ padding: 0; margin: 0; }
+.sign-page{
+    background: #5dd5c8 url("../images/newbg.png")
+    center bottom no-repeat;
+}
+a{  text-decoration: none; }
+html{ height: 100%; width: 100%}
+.sign-container{
+    min-height: 100%;
+}
+.head{
+    height: 49px;
+    width: 100%;
+    /*Zoom属性是IE浏览器的专有属性，
+    Firefox等浏览器不支持。它可以设
+    置或检索对象的缩放比例。除此之外，
+    它还有其他一些小作用，比如触发ie
+    的hasLayout属性，清除浮动、清除
+    margin的重叠等。*/
+    zoom: 1;
+}
+.logo{
+    padding:  50px 0 0 60px;
+    width: 234px;
+    height: 116px;
+    position: relative;
+}
+.logo a{
+    width: 174px;
+    height: 60px;
+}
+.logo span{
+    color: white;
+    font-size: 18px;
+    margin-left: 24px;
+    line-height: 24px;
+    padding-top: 5px;
+    font-weight: 400;
+    position: absolute;
+}
+.sign-from-box{
+    width: 410px;
+    height: 538px;
+    background-color: #fff;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: fixed;
+}
+.pwd-form {
+    width: 324px;
+    height: 538px;
+    background-color: red;
+    margin: 0 auto;
+}
+.title{
+    color: #5dd5c8;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    padding: 40px 0;
+}
+.sign-tab{
+    display: flex;
+    justify-content: space-between;
+    color: #9fa3b0;
+    font-size: 14px;
+}
+.sign-tab span:hover{
+    color: #414a60;
+}
